@@ -164,17 +164,17 @@ $(document).ready(function() {
 
 		switch (value.toLowerCase()) {
 			case 'whoami':
-				let aboutEl = addToTerminal(whoami, typeSpeedFast, true);
+				let aboutEl = addToTerminal(whoami, typeSpeedSuperFast, true);
 				break;
 			case 'bio':
-				let bioEl = addToTerminal(shortBio, typeSpeedFast, true);
+				let bioEl = addToTerminal(shortBio, typeSpeedSuperFast, true);
 				break;
 			case 'clear':
 				clearTerminal();
 				let listEl = addToTerminal(list, typeSpeedSuperFast, false);
 				break;
 			case 'contact':
-				let contactEl = addToTerminal(contact, typeSpeedFast, true);
+				let contactEl = addToTerminal(contact, typeSpeedSuperFast, true);
 				break;
 			case "whois":
 				// add a div that
@@ -207,7 +207,7 @@ $(document).ready(function() {
 
 			case 'quote':
 
-				let quoteEl = addToTerminal(getRandomQuote(), typeSpeedFast, true);
+				let quoteEl = addToTerminal(getRandomQuote(), typeSpeedFast, false);
 				break;
 
 			case '':
