@@ -164,10 +164,10 @@ $(document).ready(function() {
 
 		switch (value.toLowerCase()) {
 			case 'whoami':
-				let aboutEl = addToTerminal(whoami, typeSpeedSlow, false);
+				let aboutEl = addToTerminal(whoami, typeSpeedSlow, true);
 				break;
 			case 'bio':
-				let bioEl = addToTerminal(shortBio, typeSpeedSuperFast, false);
+				let bioEl = addToTerminal(shortBio, typeSpeedSuperFast, true);
 				break;
 			case 'clear':
 				clearTerminal();
