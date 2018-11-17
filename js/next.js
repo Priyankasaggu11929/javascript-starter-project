@@ -18,13 +18,13 @@ $(document).ready(function() {
 	// Text Options
 	let wakeUp = "Wake up, terminal...",
 	knock = "Knock, knock, terminal...",
-	about = 'Voila! This is Priyanka Saggu.',
+	whoami = 'Voila! This is Priyanka Saggu.',
 	writeCode = "I write code",
 	learnMore = "Learn more",
 	quote = "There is no spoon.",
-	listCommands = 'Available commands - [about] [bio] [contact] [skills] [social] [quote] [clear]',
+	listCommands = 'Available commands - [whoami] [bio] [contact] [skills] [social] [quote] [clear]',
 	commandNotFound = 'Command not found. Don\'t worry, it\'s probably just a glitch in the Matrix. Gli Glitch in the Matrix trix.',
-	skills = "Main: JavaScript, HTML5, CSS3, Java, C, GIT and Github.\n Familiar with: Node.js, Ruby, Python, MySQL, C++",
+	skills = "Languages: \nPython | Java-J2SE | C,C++ | JavaScript - ES5 & ES6 | HTML & CSS | Markdown \nTools and Libraries: \nVim | Emacs | Sublime Text | DevTools | Babel | Google Docs | NetBeans | Bracket  | Git/Github | Search Engine Optimization(SEO) | Wordpress | Adobe Photoshop | Gimp | Anaconda- Jupyter notebook | Shell Scripting \nOperating Systems:\n Linux-Ubuntu | Windows-7, 8,  Vista, XP",
 	contact = "Feel free to contact me on priyankasaggu11929@gmail.com. It can be for a project or a chit-chat about Technology and stuffs.";
 	// let
 
@@ -118,7 +118,7 @@ $(document).ready(function() {
 	// <li><i class="fa fa-suitcase"></i> <a href="#" target="_blank">work</a></li>
 
 
-	let shortBio = 'I am a Final Year B.Tech Computer Science student. My Objective is to take a challenging and high performance oriented role in the field of IT engineering and be a part of an organization which offers me opportunities to grow. I am a decent Competetive programmer as well as a keen enthusiast with several Open Source contributions. I am also looking to widen my expertise by now, learning ML and its relative domain.';
+	let shortBio = 'Experienced Python Developer skilled in SQL, Cascading Style Sheets (CSS), Java, C++ and C. Strong engineering professional with a B.Tech focused in Computer Science & Engineering from Deen Bandhu Chhotu Ram University of Science and Technology, Murthal, Sonipat.';
 	let typeSpeedSuperFast = 20;
 	let typeSpeedSlow = 75
 	let typeSpeedFast = 60; // in ms
@@ -163,8 +163,8 @@ $(document).ready(function() {
 		console.log("***" + typeof value);
 
 		switch (value.toLowerCase()) {
-			case 'about':
-				let aboutEl = addToTerminal(about, typeSpeedSlow, false);
+			case 'whoami':
+				let aboutEl = addToTerminal(whoami, typeSpeedSlow, false);
 				break;
 			case 'bio':
 				let bioEl = addToTerminal(shortBio, typeSpeedSuperFast, false);
